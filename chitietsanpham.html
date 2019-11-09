@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Computer Techstore</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
+    <link rel="stylesheet" href="./css/owl.theme.green.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body style="background-color: #f6f6f6;">
+<header>
+    <div style="background-color: #384248;height: 35px;" class="container-fluid sl1-top1">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <span class="sl1-top1-span">Hệ Thống showroom</span>
+                    <span class="sl1-top1-span sl1-top1-span2">Liên hệ hợp tác</span>
+                </div>
+                <div class=" sl1-top1-div">
+                    <span class="sl1-top1-span"><i class="fa fa-user-circle" aria-hidden="true" style="color: #1FD5BD;"></i> Tài khoản</span>
+                    <span class="sl1-top1-span sl1-top1-span2">Đăng kí</span>
+                    <span class="sl1-top1-span sl1-top1-span2">Đăng nhập</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid sl1-top2">
+        <div class="container">
+            <div class="row">
+                    <img src="./image/logo-01.png" alt="">
+                    <input type="text" class="form-control"><br>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <span class="sl1-top2-span">Giỏ hàng &nbsp;&nbsp; <i class="fas fa-shopping-cart "></i></span>
+                    <p>Gợi ý từ khóa tìm kiếm phổ biến</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid sl1-top3">
+        <div class="container">
+            <div class="row">
+                <button id="togle-btn"><span> ☰ </span>SẢN PHẨM</button>
+                <ul class="navigation1" style="display:flex;padding-top: 17px;margin-left: 211px;">
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">PC <i class="fa fa-angle-down" aria-hidden="true" style="color: #1FD5BD"></i></a>
+                            <div class="dropdown-menu" style="margin-top: 16px!important;">
+                                <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 10px;" href="#">Máy tính chơi game </a>
+                                <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Máy chủ, máy trạm </a>
+                                <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Máy tính văn phòng </a>
+                                <a class="dropdown-item" id="lk" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Linh kiện PC <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i> </i></a>
+                                <a class="dropdown-item pk" href="#">Phụ kiện PC <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i></a>
+                            </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">LAPTOP <i class="fa fa-angle-down" aria-hidden="true" style="color: #1FD5BD"></i></a>
+                            <div class="dropdown-menu" style="margin-top: 16px!important;">
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 10px;" href="#">Laptop Gamming </a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Laptop Workstation </a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Laptop Doanh nhân </a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Laptop Văn Phòng </i></a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Appke Macbook</a>
+                                    <a class="dropdown-item" href="#">Linh- Phụ Kiện <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i></a>
+                                  </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">LINH KIỆN <i class="fa fa-angle-down" aria-hidden="true" style="color: #1FD5BD"></i></a>
+                            <div class="dropdown-menu" style="margin-top: 16px!important;">
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 10px;" href="#">Link 1 <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i></a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Link 2 <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i></a>
+                                    <a class="dropdown-item" href="#">Link 3 <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i></a>
+                                  </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">SO SÁNH SẢN PHẨM</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">BUILD PC</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#">KHUYẾN MÃI</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" style="padding-right: 0px!important;">GIỚI THIỆU</a>
+        </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="dropdown_full" style="display: none;position: absolute; z-index: 1001;background-color: #fff;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <h4 style="margin-top: 15%; margin-left: 18%;font-weight: 650;font-size: 1.2em;">PC</h4>
+                    <ul class="menu-dropdown" style="margin-top: 10%;">
+                        <li>Máy tính chơi game</li>
+                        <li>Máy chủ, máy chạm</li>
+                        <li>Máy tính văn phòng</li>
+                        <li>Phụ kiện PC</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h4 style="margin-top: 15%; margin-left: 18%;font-weight: 650;font-size: 1.2em;">LINH KIỆN PC</h4>
+                    <ul class="menu-dropdown" style="margin-top: 10%;">
+                        <li>CPU</li>
+                        <li>Mainboarh</li>
+                        <li>Card màn hình</li>
+                        <li>RAM</li>
+                        <li>Ổ cứng</li>
+                        <li>Case màn hình</li>
+                        <li>Nguồn</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h4 style="margin-top: 15%; margin-left: 18%;font-weight: 650;font-size: 1.2em;">LAPTOP</h4>
+                    <ul class="menu-dropdown" style="margin-top: 10%;">
+                        <li>Laptop gamming</li>
+                        <li>Laptop Workstation</li>
+                        <li>Laptop Doanh nhân</li>
+                        <li>Laptop Văn phòng</li>
+                        <li>Apple Macbook</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h4 style="margin-top: 15%; margin-left: 18%;font-weight: 650;font-size: 1.2em;">LINH KIỆN LAPTOP</h4>
+                    <ul class="menu-dropdown" style="margin-top: 10%;">
+                        <li>RAM</li>
+                        <li>Ổ cứng</li>
+                        <li>Pin - Sạc Laptop</li>
+                        <li>Ba lô - Túi đựng</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h4 style="margin-top: 10%; margin-left: 11%;font-weight: 650;font-size: 1.2em;">CHƯƠNG TRÌNH KHUYẾN MÃI</h4>
+                    <img src="./image/2.jpg" alt="" style="width: 85%;margin-left: 10%;margin-top: 5%;">
+                    <img src="./image/1.jpg" alt="" style="width: 85%;margin-left: 10%;margin-top: 2%;">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <nav class="nav-top1">
+        <a href="">Trang chủ </a><span> / </span><a href=""> Laptop Gamming </a><span> / </span><a href="" style="color: #1FD5BD;"> Acer</a>
+    </nav>
+</div>
+<div class="container" style="background-color: #fff;">
+    <div class="row">
+        <div class="col-4" style="margin: 20px;">
+            <div class="slideshow">
+                <div class="mySlides">
+                  <img src="./image/pc/1.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <img src="./image/pc/2.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <img src="./image/pc/3.jpg" style="width:100%">
+                </div>
+                  
+                <div class="mySlides">
+                  <img src="./image/pc/4.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <img src="./image/pc/5.jpg" style="width:100%">
+                </div>
+                  
+                <div class="mySlides">
+                  <img src="./image/pc/6.jpg" style="width:100%">
+                </div>
+                <div class="row">
+                  <div class="column">
+                    <img class="demo cursor" src="./image/pc/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="./image/pc/2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="./image/pc/3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="./image/pc/4.jpg"  style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor"  src="./image/pc/5.jpg"  style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                  </div>    
+                  <div class="column">
+                    <img class="demo cursor"  src="./image/pc/6.jpg"  style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-5" style="margin-top: 20px;">
+            <h3 style="    font-weight: bold;font-size: 1.2rem;">Acer Predator Triton 500 PT515-51-731Z</h3>
+            <p style="font-size: 12px;border-bottom: #f6f6f6 dotted 4px;padding-bottom: 15px;"><span>Thương hiệu: Acer</span><span style="margin-left: 70px;">Mã sản phẩm: NH.Q4XSV.006</span></p>
+            <span style="    color: red;font-weight: 700;font-size: 1.5rem;">59.990.000 đ</span>
+            <p style="    font-size: 12px;font-style: italic;">(Đã bao gồm VAT)</p>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</div>
+<script src="./js/index.js"></script>
+<script>
+    $(document).ready(function(){
+$("#togle-btn").click(function(){
+  $("#dropdown_full").toggle();
+});
+$(".nav-link").click(function(){
+  $("#dropdown_full").hide();
+});
+});
+</script>
+</body>
+</html>
