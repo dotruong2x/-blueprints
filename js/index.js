@@ -22,8 +22,8 @@ $('#slide-2').owlCarousel({
     margin:0,
     nav:false,
     dots:false,
-    autoplay:true,
-    autoplayTimeout:5000,
+    // autoplay:true,
+    // autoplayTimeout:5000,
     responsive:{
         0:{
             items:5

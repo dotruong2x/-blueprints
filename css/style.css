@@ -160,6 +160,9 @@ content: none;
     width: 220px;
     height: 130px;
 }
+#slide-2 p{
+    font-size: 11px;margin-left: 10px;
+}
 #slide-4{
     margin-top: 3%;
 }
