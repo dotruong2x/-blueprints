@@ -71,7 +71,7 @@ a,b,i,p,li,h1,h2,h3,h4,h5,h6{
     background-color: #434E54; padding-bottom: 3%;
 }
 .sl1-top6{
-    background-color: #384248; height: 145px;
+    background-color: #384248; height: 130px;
 }
 .sl1-top2-span{
     color: #fff;
@@ -162,6 +162,12 @@ content: none;
 }
 #slide-2 p{
     font-size: 11px;margin-left: 10px;
+}
+.sl1-top6-div div{
+    float: left;margin-top: 25px;margin-left: 16px; 
+}
+.sl1-top6-div img{
+    margin-top: 15px;float: left;width: 95px;margin-left: 67px;
 }
 #slide-4{
     margin-top: 3%;
