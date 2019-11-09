@@ -246,3 +246,29 @@ padding: 8px;
   .demo:hover {
     opacity: 1;
   }
+  .container-1{
+      max-width: 100%!important;
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+  .sale{
+    margin-left: -20px;margin-top: 20px;
+  }
+  .sale li{
+      list-style-type: disc;
+      font-size: 13px;
+  }
+  .colpan1{
+      width: 30%;
+      font-size: 12px;
+      padding-left: 15px;
+      border: #f6f6f6 dotted 2px;
+      height: 30px;
+  }
+  .colpan2{
+    width: 70%;
+    font-size: 12px;
+    padding-left: 15px;
+    border: #f6f6f6 dotted 2px;
+    height: 30px;
+}
