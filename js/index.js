@@ -4,7 +4,7 @@ $('#slide-1').owlCarousel({
     nav:false,
     dots:false,
     autoplay:true,
-    autoplayTimeout:1000,
+    autoplayTimeout:5000,
     responsive:{
         0:{
             items:1

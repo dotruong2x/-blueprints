@@ -22,11 +22,11 @@ a,b,i,p,li,h1,h2,h3,h4,h5,h6{
     border: #3e474c solid 1px;
 }
 .sl1-top2 img{
-    max-width:205px;margin-top: 15px;height: 60px;
+    max-width:180px;margin-top: 15px;height: 60px;
 }
 .sl1-top2 input{
     width: 605px;height: 40px;display: block;
-    margin-left: 81px;
+    margin-left: 105px;
     margin-top: 20px;
 }
 .sl1-top2 .fa-search{
@@ -52,7 +52,7 @@ a,b,i,p,li,h1,h2,h3,h4,h5,h6{
     background-color: #2A343A;
 }
 #togle-btn{
-    border:none;color: #fff;background-color: #384248;padding: 5px 20px;border-radius: 5px;margin: 10px;height: 30px;
+    border:none;color: #fff;background-color: #384248;padding: 5px 20px;border-radius: 5px;margin: 10px 0px;height: 30px;
 }
 #togle-btn span{
     color: #1FD5BD
@@ -85,11 +85,14 @@ a,b,i,p,li,h1,h2,h3,h4,h5,h6{
     font-size: 14px;
     color: #fff;
 }
+.navigation1 li{
+    margin-left: 20px;
+}
 #slide-2 img{
     padding: 15px 10px;
 }
 .aaa .owl-stage-outer{
-    height: 275px;
+    height: 293px;
 }
 #slide-2 div{
     border: #f6f6f6 solid 1px;
@@ -110,7 +113,7 @@ a,b,i,p,li,h1,h2,h3,h4,h5,h6{
     display: none;
 }
 .laptop-1 .col-4{
-    margin: 1px;background-color: #fff;border: #22333e4d solid 1px;max-width:32.9%;
+    margin: 1px;background-color: #fff;border: #e8ebed solid 1px;max-width:32.9%;
 }
 .laptop-1 img{
     max-width: 100%;padding-top: 15px;
@@ -145,11 +148,11 @@ content: none;
     background-color: #fff;margin-top: 20px;
 }
 .sl2-top1-div1{
-    background-color: #2A343A; height: 75px;
+    background-color: #2A343A; height: 60px;
 }
 .sl2-top1-div1 h5{
     color: #1FD5BD;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 20px;
     font-size: 1rem;
 }
@@ -157,7 +160,7 @@ content: none;
     display: flex;flex: auto;justify-content: flex-end;margin-right: 15px;
 }
 .sl2-top1-div1 span{
-    margin-top: 30px;color: #fff;font-size: 12px;
+    margin-top: 20px;color: #fff;font-size: 12px;
 }
 .owl-carousel2 img{
     width: 100px;
@@ -165,16 +168,16 @@ content: none;
 #slide-4 img{
     background-color: #fff;
     border-radius: 5px;
-    border: #c5c5c5 solid 1px;
+    border: #e8ebed solid 1px;
 }
 #slide-2 p{
-    font-size: 11px;margin-left: 10px;
+    font-size: 11px;margin-left: 10px;margin-top: 5px;
 }
 .sl1-top6-div div{
     float: left;margin-top: 25px;margin-left: 16px; 
 }
 .sl1-top6-div img{
-    margin-top: 15px;float: left;width: 95px;margin-left: 67px;
+    margin-top: 15px;float: left;width: 95px;margin-left: 45px;
 }
 #slide-4{
     margin-top: 3%;
@@ -183,7 +186,7 @@ content: none;
 padding: 8px;
 }
 #slide-3 div{
-    border: #f6f6f6 solid 1px;
+  
 }
 #slide-3 h5{
     font-size: 0.9rem;font-weight: 700;margin-left: 10px;
