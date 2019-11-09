@@ -262,16 +262,27 @@ padding: 8px;
       font-size: 13px;
   }
   .colpan1{
-      width: 30%;
+      width: 40%;
       font-size: 12px;
       padding-left: 15px;
       border: #f6f6f6 dotted 2px;
       height: 30px;
   }
   .colpan2{
-    width: 70%;
+    width: 60%;
     font-size: 12px;
     padding-left: 15px;
     border: #f6f6f6 dotted 2px;
     height: 30px;
+}
+.action{
+    background-color: #182a79;
+    color: #1FD5BD;
+    font-weight: bold;
+}
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btn10, #btn11, #btn12 {
+    border: none;
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+    font-size: 11px;
 }
