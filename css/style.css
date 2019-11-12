@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 li{
     list-style-type: none;
@@ -7,9 +8,14 @@ li{
 i{
     color: #1FD5BD;
 }
-a,b,i,p,li,h1,h2,h3,h4,h5,h6{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+a, b, i, p, li, h1, h2, h3, h4, h5, h6, button{ 
+    font-family: 'Roboto', sans-serif;
 }
+#btn-togle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
 .sl1-top1-span{
     color: #fff;
     font-size: 12px;
@@ -94,9 +100,6 @@ a,b,i,p,li,h1,h2,h3,h4,h5,h6{
 .aaa .owl-stage-outer{
     height: 293px;
 }
-#slide-2 div{
-    border: #f6f6f6 solid 1px;
-}
 #slide-2 h5{
     font-size: 0.9rem;font-weight: 700;margin-left: 8px;
 }
@@ -174,7 +177,7 @@ content: none;
     font-size: 9px;margin-left: 10px;margin-top: 5px;
 }
 .sl1-top6-div div{
-    float: left;margin-top: 25px;margin-left: 16px; 
+    float: left;margin-top: 25px;margin-left: 42px; 
 }
 .sl1-top6-div img{
     margin-top: 15px;float: left;width: 95px;margin-left: 45px;

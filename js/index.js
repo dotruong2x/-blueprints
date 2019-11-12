@@ -22,8 +22,8 @@ $('#slide-2').owlCarousel({
     margin:0,
     nav:false,
     dots:false,
-    // autoplay:true,
-    // autoplayTimeout:5000,
+    autoplay:true,
+    autoplayTimeout:3000,
     responsive:{
         0:{
             items:6
@@ -41,8 +41,8 @@ $('#slide-3').owlCarousel({
     margin:10,
     nav:false,
     dots:false,
-    // autoplay:true,
-    // autoplayTimeout:5000,
+    autoplay:true,
+    autoplayTimeout:3000,
     responsive:{
         0:{
             items:6
@@ -60,8 +60,8 @@ $('#slide-4').owlCarousel({
     margin:30,
     nav:false,
     dots:false,
-    // autoplay:true,
-    // autoplayTimeout:1000,
+    autoplay:true,
+    autoplayTimeout:1000,
     responsive:{
         0:{
             items:6
@@ -164,4 +164,4 @@ $(document).ready(function(){
       $("#btn11").removeClass('action');
       $("#btn10").removeClass('action');
     });
-    });
+  });
