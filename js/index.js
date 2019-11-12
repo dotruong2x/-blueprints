@@ -22,8 +22,8 @@ $('#slide-2').owlCarousel({
     margin:0,
     nav:false,
     dots:false,
-    autoplay:true,
-    autoplayTimeout:3000,
+    // autoplay:true,
+    // autoplayTimeout:3000,
     responsive:{
         0:{
             items:6
@@ -102,6 +102,19 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+}
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active1", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active1";
 }
 $(document).ready(function(){
     $("#togle-btn").click(function(){
