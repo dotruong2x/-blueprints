@@ -26,13 +26,13 @@ $('#slide-2').owlCarousel({
     // autoplayTimeout:5000,
     responsive:{
         0:{
-            items:5
+            items:6
         },
         600:{
-            items:5
+            items:6
         },
         1000:{
-            items:5
+            items:6
         }
     }
 });
@@ -45,13 +45,13 @@ $('#slide-3').owlCarousel({
     // autoplayTimeout:5000,
     responsive:{
         0:{
-            items:5
+            items:6
         },
         600:{
-            items:5
+            items:6
         },
         1000:{
-            items:5
+            items:6
         }
     }
 });

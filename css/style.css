@@ -249,10 +249,8 @@ padding: 8px;
   .demo:hover {
     opacity: 1;
   }
-  .container-1{
-      max-width: 100%!important;
-      margin-left: 170px;
-      margin-right: 170px;
+  .container{
+      max-width: 1340px!important;
   }
   .sale{
     margin-left: -20px;margin-top: 20px;
