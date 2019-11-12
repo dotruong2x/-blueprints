@@ -25,7 +25,7 @@ a,b,i,p,li,h1,h2,h3,h4,h5,h6{
     max-width:200px;margin-top: 15px;height: 60px;
 }
 .sl1-top2 input{
-    width: 645px;height: 40px;display: block;
+    width: 670px;height: 40px;display: block;
     margin-left: 105px;
     margin-top: 20px;
 }
@@ -42,7 +42,7 @@ a,b,i,p,li,h1,h2,h3,h4,h5,h6{
     background-color: #3e474c;
 }
 .sl1-top2 p{
-    margin-left: 286px;color: #1FD5BD;margin-top: -8px;font-size: 13px;
+    margin-left: 396px;color: #1FD5BD;margin-top: -8px;font-size: 13px;
 }
 .sl1-top2 .fa-shopping-cart{
     color: #1FD5BD;margin-top: 3px;font-size: 15px;
@@ -77,7 +77,7 @@ a,b,i,p,li,h1,h2,h3,h4,h5,h6{
     color: #fff;
     font-size: 12px;
     display: flex;
-    margin-left: 175px;
+    margin-left: 200px;
     margin-top: 30px;
 }
 .navigation1 li>a{
