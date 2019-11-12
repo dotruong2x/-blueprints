@@ -266,14 +266,17 @@ padding: 8px;
       font-size: 12px;
       padding-left: 15px;
       border: #f6f6f6 dotted 2px;
-      height: 33px;
+      height: 40px;
   }
   .colpan2{
     width: 60%;
     font-size: 12px;
     padding-left: 15px;
     border: #f6f6f6 dotted 2px;
-    height: 33px;
+    height: 40px;
+}
+th{
+    height: 40px;
 }
 .action{
     background-color: #182a79;
