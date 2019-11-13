@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mẫu trang con laptop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <link rel="shortcut icon" href="./image/sprite-2019-02.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
+    <link rel="stylesheet" href="./css/owl.theme.green.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body style="background-color: #f6f6f6;">
+    <header>
+        <div style="background-color: #384248;height: 35px;" class="container-fluid sl1-top1">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <span class="sl1-top1-span">Hệ Thống showroom</span>
+                        <span class="sl1-top1-span sl1-top1-span2">Liên hệ hợp tác</span>
+                    </div>
+                    <div class=" sl1-top1-div">
+                        <span class="sl1-top1-span"><i class="fa fa-user-circle" aria-hidden="true" style="color: #1FD5BD;"></i> Tài khoản</span>
+                        <span class="sl1-top1-span sl1-top1-span2" data-toggle="modal" data-target="#myModal">Đăng kí</span>
+                        <span class="sl1-top1-span sl1-top1-span2" data-toggle="modal" data-target="#myModal">Đăng nhập</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid sl1-top2">
+            <div class="container">
+                <div class="row">
+                        <img src="./image/logo-01.png" alt="">
+                        <div style="display:flex;justify-content: flex-end;float: right;flex: auto;">
+                        <input type="text" class="form-control">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <span class="sl1-top2-span">Giỏ hàng &nbsp;&nbsp; <i class="fas fa-shopping-cart "></i></span>
+                        </div>
+                        <p>Gợi ý từ khóa tìm kiếm phổ biến</p>
+                        </div>
+            </div>
+        </div>
+        <div class="container-fluid sl1-top3">
+            <div class="container">
+                <div class="row">
+                    <button id="togle-btn"><span> ☰ </span>SẢN PHẨM</button>
+                    <ul class="navigation1" style="display:flex;justify-content: flex-end;flex: auto;padding-top: 15px;">
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">PC <i class="fa fa-angle-down" aria-hidden="true" style="color: #1FD5BD"></i></a>
+                                <div class="dropdown-menu" style="margin-top: 16px!important;">
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 10px;" href="#">Máy tính chơi game </a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Máy chủ, máy trạm </a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Máy tính văn phòng </a>
+                                    <a class="dropdown-item" id="lk" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Linh kiện PC <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i> </i></a>
+                                    <a class="dropdown-item pk" href="#">Phụ kiện PC <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i></a>
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">LAPTOP <i class="fa fa-angle-down" aria-hidden="true" style="color: #1FD5BD"></i></a>
+                                <div class="dropdown-menu" style="margin-top: 16px!important;">
+                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 10px;" href="#">Laptop Gamming </a>
+                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Laptop Workstation </a>
+                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Laptop Doanh nhân </a>
+                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Laptop Văn Phòng </i></a>
+                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Appke Macbook</a>
+                                        <a class="dropdown-item" href="#">Linh- Phụ Kiện <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i></a>
+                                      </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">LINH KIỆN <i class="fa fa-angle-down" aria-hidden="true" style="color: #1FD5BD"></i></a>
+                                <div class="dropdown-menu" style="margin-top: 16px!important;">
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 10px;" href="#">CPU </a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Mainboarh </a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Card màn hình </a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Ram </i></a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Ổ cứng </i></a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Case máy tính </i></a>
+                                    <a class="dropdown-item" href="#">Nguồn</a>
+                                  </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link" href="#">SO SÁNH SẢN PHẨM</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">BUILD PC</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">KHUYẾN MÃI</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" style="padding-right: 0px!important;">GIỚI THIỆU</a>
+            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="dropdown_full" style="display: none;position: absolute; z-index: 1001;background-color: #fff;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-2">
+                        <h4 style="margin-top: 15%; margin-left: 18%;font-weight: 650;font-size: 1.2em;">PC</h4>
+                        <ul class="menu-dropdown" style="margin-top: 10%;">
+                            <li>Máy tính chơi game</li>
+                            <li>Máy chủ, máy chạm</li>
+                            <li>Máy tính văn phòng</li>
+                            <li>Phụ kiện PC</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <h4 style="margin-top: 15%; margin-left: 18%;font-weight: 650;font-size: 1.2em;">LINH KIỆN PC</h4>
+                        <ul class="menu-dropdown" style="margin-top: 10%;">
+                            <li>CPU</li>
+                            <li>Mainboarh</li>
+                            <li>Card màn hình</li>
+                            <li>RAM</li>
+                            <li>Ổ cứng</li>
+                            <li>Case màn hình</li>
+                            <li>Nguồn</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <h4 style="margin-top: 15%; margin-left: 18%;font-weight: 650;font-size: 1.2em;">LAPTOP</h4>
+                        <ul class="menu-dropdown" style="margin-top: 10%;">
+                            <li>Laptop gamming</li>
+                            <li>Laptop Workstation</li>
+                            <li>Laptop Doanh nhân</li>
+                            <li>Laptop Văn phòng</li>
+                            <li>Apple Macbook</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <h4 style="margin-top: 15%; margin-left: 18%;font-weight: 650;font-size: 1.2em;">LINH KIỆN LAPTOP</h4>
+                        <ul class="menu-dropdown" style="margin-top: 10%;">
+                            <li>RAM</li>
+                            <li>Ổ cứng</li>
+                            <li>Pin - Sạc Laptop</li>
+                            <li>Ba lô - Túi đựng</li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <h4 style="margin-top: 10%; margin-left: 11%;font-weight: 650;font-size: 1.2em;">CHƯƠNG TRÌNH KHUYẾN MÃI</h4>
+                        <img src="./image/2.jpg" alt="" style="width: 85%;margin-left: 10%;margin-top: 5%;">
+                        <img src="./image/1.jpg" alt="" style="width: 85%;margin-left: 10%;margin-top: 2%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid sl1-top5">
+            <div class="container">
+                <div class="row">
+                        <div class="col-8 owl-carousel owl-theme owl-loaded" id="slide-1" style="margin-left: -15px;">
+                                <div class="owl-stage-outer">
+                                    <div class="owl-stage">
+                                        <div class="owl-item"><img src="./image/bn4.jpg"></div>
+                                        <div class="owl-item"><img src="./image/bn1.jpg"></div>
+                                        <div class="owl-item"><img src="./image/bn2.jpg"></div>
+                                    </div>
+                                </div>
+                            </div>
+                    <div class="col-4 banner-top1">
+                        <img src="./image/bt5.jpg" style="height: 235px;width: 470px;" alt="">
+                        <img src="./image/bn5.jpg" style="height: 236px;margin-top: 10px;width: 470px;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid sl1-top6">
+            <div class="container sl1-top6-div">
+                    <img src="./image/1.png" alt="" style="margin-left: -15px;">
+                    <div style="width: 12%;"><h4 style="color: #fff;font-weight: 700;font-size: 0.8rem;">FREE SHIPPING</h4>
+                        <p style="font-size: x-small;color: #fff;">Miến phí vận chuyển với đơn hàng từ 500.000 VND hoặc khách hàng thân thiết</p>
+                    </div>
+                    <img src="./image/2.png">
+                    <div style="width: 11%;"><h4 style="color: #fff;font-weight: 700;font-size: 0.8rem;">CHÍNH HÃNG 100%</h4>
+                        <p style="font-size: x-small;color: #fff;">Miến phí vận chuyển với đơn hàng từ 500.000 VND hoặc khách hàng thân thiết</p>
+                    </div>
+                    <img src="./image/3.png">
+                    <div style="width: 13%;"><h4 style="color: #fff;font-weight: 700;font-size: 0.8rem;">BẢO HÀNH 36 THÁNG</h4>
+                        <p style="font-size: x-small;color: #fff;">Miến phí vận chuyển với đơn hàng từ 500.000 VND hoặc khách hàng thân thiết</p>
+                    </div>
+                    <img src="./image/4.png">
+                    <div style="width: 13%;"><h4 style="color: #fff;font-weight: 700;font-size: 0.8rem;">3 NGÀY ĐỔI TRẢ</h4>
+                        <p style="font-size: x-small;color: #fff;">Miến phí vận chuyển với đơn hàng từ 500.000 VND hoặc khách hàng thân thiết</p>
+                    </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container" style="padding-top: 20px">
+		<span>Trang chủ</span><span>&nbsp;/&nbsp;</span><span style="color: #1FD5BD;"><a href="">Laptop Gaming</a></span>
+		<p style="margin-top: 20px;font-size: 140%">LAPTOP GAMING</p>
+		
+		<div class="row">
+	    	<div class="col-md-3">
+	    		<div style="background-color: #fff;width: 100%;padding: 10px">
+	    			<div style="border: 1px solid #1FD5BD;padding: 10px;text-align: center;">Lọc sản phẩm</div>
+	    			<span style="border-bottom: 2px solid #ddd;padding-top: 20px;display: block;">HÃNG SẢN XUẤT</span>
+					<div style="padding: 20px 20px 0">
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">DELL</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">HP</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">LENOVO</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">ASUS</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">ACER</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">MSI</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">LG</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">FUJITSU</span>
+						</div>	
+					</div>
+
+					<span style="border-bottom: 2px solid #ddd;display: block;">KHOẢNG GIÁ</span>
+					<div style="padding: 20px 20px 0">
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Dưới 10 triệu</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">10 triệu - 15 triệu</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">15 triệu - 20 triệu</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">20 triệu - 25 triệu</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">25 triệu - 30 triệu</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">30 triệu - 35 triệu</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">35 triệu - 40 triệu</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">45 triệu - 50 triệu</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">50 triệu - 60 triệu</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">60 triệu - 70 triệu</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">70 triệu - 80 triệu</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Trên 80 triệu</span>
+						</div>
+					</div>
+
+					<span style="border-bottom: 2px solid #ddd;display: block;">CPU - Central Processing Unit</span>
+					<div style="padding: 20px 20px 0">
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">AMD Ryzen 5</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">AMD Ryzen 7</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Intel Core i3</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Intel Core i5</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Intel Core i7</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Intel Core i9</span>
+						</div>
+			
+					</div>
+
+					<span style="border-bottom: 2px solid #ddd;display: block;">Ổ CỨNG</span>
+					<div style="padding: 20px 20px 0">
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">500GB HDD</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">1TB HDD</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">128GB SSD</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">256GB SSD</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">512GB SSD</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">1TB HDD + 128GB SSD</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">1TB HDD + 256GB SSD</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">1TB HDD + 512GB SSD</span>
+						</div>	
+					</div>
+
+					<span style="border-bottom: 2px solid #ddd;display: block;">VGA - Card màn hình</span>
+					<div style="padding: 20px 20px 0">
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Card tích hợp (On Board)</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Card VGA Rời 2GB</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Card VGA Rời 3GB</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Card VGA Rời 4GB</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Card VGA Rời 6GB</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Card VGA Rời 8GB</span>
+						</div>
+						
+					</div>
+
+					<span style="border-bottom: 2px solid #ddd;display: block;">RAM - Random Access Memory</span>
+					<div style="padding: 20px 20px">
+						
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">4GB</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">8GB</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">16GB</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">32GB</span>
+						</div>	
+					</div>
+
+					<span style="border-bottom: 2px solid #ddd;display: block;">MÀN HÌNNH</span>
+					<div style="padding: 20px 20px 0">
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Dưới 13,3 inch</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">13,3 inch</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">14 inch</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">15,4 inch</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">15,6 inch</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">17 inch</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">17,3 inch</span>
+						</div>
+				
+					</div>
+
+					<span style="border-bottom: 2px solid #ddd;display: block;">Ổ ĐĨA</span>
+					<div style="padding: 20px 20px 0">
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">DVD - RW</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Không có</span>
+						</div>
+							
+					</div>
+
+					<span style="border-bottom: 2px solid #ddd;display: block;">HỆ ĐIỀU HÀNH</span>
+					<div style="padding: 20px 20px 0">
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">DOS</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Linux</span>
+						</div>
+						<div class="form-group">
+							<input type="checkbox"><span style="margin-left: 10px">Window 10</span>
+						</div>
+						
+					</div>
+	    		</div>
+	    	</div>
+    		<div class="col-md-9">
+    			<div class="page-trang-con d-flex justify-content-between align-content-center p-4" style="background-color: #373737">
+    				<div class="">
+    					<div style="border-radius: 4px;padding: 15px;">
+    						<span style="border-radius: 5px;padding: 10px;background-color: #666;color: #fff;">Sắp xếp theo&nbsp;&nbsp;&nbsp;<i class="fas fa-chevron-down""></i></span>
+    					</div>
+    				</div>
+    				<div style="display: flex;justify-content: center;align-items: center;">
+    					<div style="">
+    						<span style="padding: 6px;background-color: #666;color: #fff;border-radius: 4px">1</span>
+    						<span style="padding: 6px;color: #fff;">2</span>
+    						<span style="padding: 6px;color: #fff;">3</span>
+    						<span style="padding: 6px;color: #fff;">4</span>
+    						<span style="padding: 6px;color: #fff;">5</span>
+    						<span style="padding: 6px;color: #fff;">6</span>
+
+    						<span style="color: #fff;padding-left: 40px;">Next</span>
+    					</div>
+    				</div>
+    				<div style="display: flex;justify-content: center;align-items: center;">
+    					<span><i class="fas fa-th"></i></span>
+    					<span class="pl-3"><i class="fas fa-list-ul"></i></span>
+    				</div>
+    			</div>
+
+    			<div style="display:flex;margin-top: 5px;">
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+            	</div>
+
+            	<div style="display:flex;margin-top: 5px;">
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+            	</div>
+
+            	<div style="display:flex;margin-top: 5px;">
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+            	</div>
+
+            	<div style="display:flex;margin-top: 5px;">
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+	                <div style="max-width:25%;padding: 10px;background-color: #fff;border: #f6f6f6 solid 1px;">
+	                    <img src="./image/loptop/1.jpg" alt="" style="max-width:100%">
+	                    <img src="./image/logo/11.png" width="50px" alt="">
+	                    <span style="font-size: 10px; margin-left: 27px;">Ma sp: aaaaaaa</span>
+	                    <h6 style="margin-top: 15px;font-size: 13px; font-weight: 700">Dell Alienware 17R5</h6>
+	                    <ul style="padding-left: 10px;margin-bottom: 0px;">
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">Màn hình: 17.3" FHD</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">CPU: i7-8750HQ</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">RAM: 16GB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">256SSD + 1TB</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">VGA: GTX 1070</li>
+	                        <li style="font-size: 10px;list-style-type: disc; margin-left: 3px;">NẶNG: 4,42 KG</li>
+	                    </ul>
+	                    <p class="cheap" style="margin-left: 0px;">54.990.000 đ</p>
+	                    <p style="font-size: 8px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 10px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+	                </div>
+            	</div>
+    		<div class="page-trang-con d-flex justify-content-end align-content-center p-4 mt-2" style="background-color: #373737">
+    
+    				<div style="display: flex;justify-content: center;align-items: center;">
+    					<div style="">
+    						<span style="padding: 6px;background-color: #666;color: #fff;border-radius: 4px">1</span>
+    						<span style="padding: 6px;color: #fff;">2</span>
+    						<span style="padding: 6px;color: #fff;">3</span>
+    						<span style="padding: 6px;color: #fff;">4</span>
+    						<span style="padding: 6px;color: #fff;">5</span>
+    						<span style="padding: 6px;color: #fff;">6</span>
+
+    						<span style="color: #fff;padding-left: 40px;">Next</span>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+		</div>
+    </div>
+                     
+<footer>
+            <div class="container-fluid" style="background-color: #2A343A; height: 60px;margin-top: 4%;">
+                <center style="color: #fff;padding-top: 20px;font-size: 13px;">Mọi thắc mắc xin vui lòng liên hệ tổng đài chăm sóc khách hàng: <i>1900 1508</i> hoặc <i>1900 6677</i></center>
+            </div>
+            <div class="container-fluid" style="background-color: #434E54;padding-bottom: 70px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4" style="display: flex;align-items: flex-start;padding-left: 0px;">
+                            <div>
+                                <i class="fa fa-shopping-cart" aria-hidden="true" style="color: #fff;padding: 5px;border-radius: 6px;border: #fff solid 1px;margin-top: 100px;"></i><br>
+                                <i class="fab fa-facebook-f "aria-hidden="true" style="color: #fff;padding: 5px 9px 5px 9px;border-radius: 6px;border: #fff solid 1px;margin-top: 10px;"></i><br>
+                                <i class="fab fa-youtube "aria-hidden="true" style="color: #fff;padding: 5px;border-radius: 6px;border: #fff solid 1px;margin-top: 10px;"></i><br>
+                                <i class="fa fa-envelope" aria-hidden="true" style="color: #fff;padding:5px 6px;border-radius: 6px;border: #fff solid 1px;margin-top: 10px;"></i>
+                            </div>
+                            <div style="margin-top: 60px;margin-left: 30px;display: flex;flex-direction: column;">
+                                <img src="./image/logo-01.png" alt="" width="200px">
+                                <div style="margin-top: 35px;flex-direction: row;display: flex;">
+                                    <div style="display: flex; flex-direction: column;">
+                                        <i class="fa fa-map-marker-alt" aria-hidden="true" style=""></i>
+                                        <i class="fa fa-phone-alt" aria-hidden="true" style="margin-top: 15px;"></i>
+                                        <i class="fa fa-envelope" aria-hidden="true" style="margin-top: 15px;"></i>
+                                    </div>
+                                    <div style="display: flex; flex-direction: column;margin-top: -15px;margin-left: 10px;">
+                                        <span style="font-size: 13px;color: #fff;margin-top: 12px;">Số 80 Trúc Khê, Phường Láng Hạ, Quận Đống Đa, Hà Nội</span>
+                                        <span style="font-size: 13px;color: #fff;margin-top: 11px;">1900 1508 - 1900 6677</span>
+                                        <span style="font-size: 13px;color: #fff;margin-top: 14px;">hotro@mycomputer.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2" style="display:flex;flex-direction: column;">
+                            <h6 style="margin-top: 60px;color: #1FD5BD;font-weight: bold;font-size: 18px;">#Liên Kết</h6>
+                            <p style="font-size: 13px;margin-top: 20px;color: #fff;">Trang chủ</p>
+                            <p style="font-size: 13px;margin-top: -2px;color: #fff;">Giới thiệu</p>
+                            <p style="font-size: 13px;margin-top: -2px;color: #fff;">Tra cứu bảo hành</p>
+                            <p style="font-size: 13px;margin-top: -2px;color: #fff;">Giỏ hàng</p>
+                            <p style="font-size: 13px;margin-top: -2px;color: #fff;">Tổng đài hỗ trợ</p>
+                            <p style="font-size: 13px;margin-top: -2px;color: #fff;">Hệ thống Showroom</p>
+                        </div>
+                        <div class="col-3" style="display:flex;flex-direction: column;">
+                            <h6 style="margin-top: 60px;color: #1FD5BD;font-weight: bold;font-size: 18px;">#Đăng Kí Nhận Thông Tin</h6>
+                            <p style="font-size: 13px;margin-top: 20px;color: #fff;">Vui lòng đăng kí để được nhận những thông tin mới nhất từ MY COMPUTER</p>
+                            <p style="margin-bottom: 0px;"><i class="fa fa-envelope" aria-hidden="true"></i>  <span style="font-size: 13px;color: #fff;margin-left: 10px;">Địa chỉ Email</span></p>
+                            <input type="text" class="form-control" style="    border: transparent !important;
+                            border-bottom: 1px solid #fff !important;
+                            padding-left: 0;
+                            padding-right: 0;
+                            background: transparent !important;
+                            color: rgba(255, 255, 255, 0.9) !important;
+                            font-size: 16px;
+                            border-radius: 0px;
+                            -webkit-box-shadow: none !important;
+                            box-shadow: none !important;">
+                            <button style="background-color: #434E54;
+                            border: #1FD5BD solid 2px;
+                            width: 120px;
+                            height: 40px;
+                            margin-top: 20px;color: #fff;">Đăng Kí</button>
+                        </div>
+                        <div class="col-3" style="padding-right: 0px;">
+                            <h6 style="margin-top: 60px;color: #1FD5BD;font-weight: bold;font-size: 18px;">#Khuyến Mãi</h6>
+                            <div style="display: flex;align-items: flex-start;">
+                            <div style="display: flex;flex-direction: column;margin-top: 25px;">
+                                <img src="./image/pc/1.jpg" alt="" width="60px">
+                                <img src="./image/pc/2.jpg" alt="" width="60px" style="margin-top: 45px;">
+                            </div>
+                            <div>
+                                <div style="margin-top: 20px;margin-left: 15px;line-height: initial;">
+                                    <b style="font-size: 16px; color: #fff;">Mua laptop Gamming nhận quà 10 triệu</b>
+                                    <p style="    font-size: 14px;
+                                    color: #fff;">10/10/2019</p>
+                                </div>
+                                <div style="margin-top: 40px;margin-left: 15px;line-height: initial;">
+                                        <b style="font-size: 16px; color: #fff;">Sự kiện chào mừng ngày phụ nữ Việt Nam</b>
+                                        <p style="    font-size: 14px;
+                                        color: #fff;">20/10/2019</p>
+                                    </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" style="background-color: #2A343A; height: 60px;">
+                <center style="color: #1FD5BD;padding-top: 20px;"><i class="fas fa-copyright"></i> Coppyright 2019 My Computer - All Rights Reserved</center>
+            </div>
+</footer>
+<!-- modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal body -->
+        <div class="modal-body">
+            <center style="background-color: #fff;width: 100%;height: 700px;">
+                <img src="./image/logo-01.jpg" alt="" width="300px">
+                <div style="display: flex; justify-content: space-around;margin-top: 50px;">
+                    <a class="tablinks" onclick="openCity(event, 'dangky')" style="font-size: 2rem;font-weight:750;">Đăng kí</a>
+                    <a class="tablinks active1" onclick="openCity(event, 'dangnhap')" style="font-size: 2rem;font-weight:750;">Đăng nhập</a>
+                </div>
+                  <div id="dangky" class="tabcontent">
+                    <input type="email" class="form-control" name="" id="" placeholder="Địa chỉ email, sđt, tên đăng nhập">
+                    <input type="password" class="form-control" name="" id="" placeholder="Mật khẩu" style="margin-top: 30px;">
+                    <button style="margin-top: 50px;background-color: #384248;color: #1FD5BD;font-weight: 700;font-size: 26px;" class="form-control">Đăng Kí</button>
+                  </div>
+                  
+                  <div id="dangnhap" class="tabcontent" style="display: block;">
+                    <input type="email" class="form-control" name="" id="" placeholder="Địa chỉ email, sđt, tên đăng nhập">
+                    <input type="password" class="form-control" name="" id="" placeholder="Mật khẩu" style="margin-top: 30px;">
+                    <button style="margin-top: 50px;background-color: #384248;color: #1FD5BD;font-weight: 700;font-size: 26px;" class="form-control">Đăng Nhập</button>
+                    <i style="    margin-left: -65%;font-size: 14px;">Quên mật khẩu</i>
+                    <a href=""><p style="margin-top: 10%;font-size: 24px;font-weight: 700;">Đăng nhập bằng</p></a>
+                  </div>
+            </center>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
