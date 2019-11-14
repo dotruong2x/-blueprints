@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Computer Techstore</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <link rel="shortcut icon" href="./image/sprite-2019-02.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
+    <link rel="stylesheet" href="./css/owl.theme.green.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body style="background-color: #f6f6f6;">
+    <header>
+        <div style="background-color: #384248;height: 35px;" class="container-fluid sl1-top1">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <span class="sl1-top1-span">Hệ Thống showroom</span>
+                        <span class="sl1-top1-span sl1-top1-span2">Liên hệ hợp tác</span>
+                    </div>
+                    <div class=" sl1-top1-div">
+                        <span class="sl1-top1-span"><i class="fa fa-user-circle" aria-hidden="true" style="color: #1FD5BD;"></i> Tài khoản</span>
+                        <span class="sl1-top1-span sl1-top1-span2">Đăng kí</span>
+                        <span class="sl1-top1-span sl1-top1-span2">Đăng nhập</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid sl1-top2">
+            <div class="container">
+                <div class="row">
+                        <img src="./image/logo-01.png" alt="">
+                        <input type="text" class="form-control"><br>
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <span class="sl1-top2-span">Giỏ hàng &nbsp;&nbsp; <i class="fas fa-shopping-cart "></i></span>
+                        <p>Gợi ý từ khóa tìm kiếm phổ biến</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid sl1-top3">
+            <div class="container">
+                <div class="row">
+                    <button id="togle-btn"><span> ☰ </span>SẢN PHẨM</button>
+                    <ul class="navigation1" style="display:flex;padding-top: 17px;margin-left: 90px;">
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">PC <i class="fa fa-angle-down" aria-hidden="true" style="color: #1FD5BD"></i></a>
+                                <div class="dropdown-menu" style="margin-top: 16px!important;">
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 10px;" href="#">Máy tính chơi game </a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Máy chủ, máy trạm </a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Máy tính văn phòng </a>
+                                    <a class="dropdown-item" id="lk" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Linh kiện PC <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i> </i></a>
+                                    <a class="dropdown-item pk" href="#">Phụ kiện PC <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i></a>
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">LAPTOP <i class="fa fa-angle-down" aria-hidden="true" style="color: #1FD5BD"></i></a>
+                                <div class="dropdown-menu" style="margin-top: 16px!important;">
+                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 10px;" href="#">Laptop Gamming </a>
+                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Laptop Workstation </a>
+                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Laptop Doanh nhân </a>
+                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Laptop Văn Phòng </i></a>
+                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Appke Macbook</a>
+                                        <a class="dropdown-item" href="#">Linh- Phụ Kiện <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i></a>
+                                      </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">LINH KIỆN <i class="fa fa-angle-down" aria-hidden="true" style="color: #1FD5BD"></i></a>
+                                <div class="dropdown-menu" style="margin-top: 16px!important;">
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 10px;" href="#">CPU </a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Mainboarh </a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Card màn hình </a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Ram </i></a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Ổ cứng </i></a>
+                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Case máy tính </i></a>
+                                    <a class="dropdown-item" href="#">Nguồn</a>
+                                  </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link" href="#">SO SÁNH SẢN PHẨM</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">BUILD PC</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">KHUYẾN MÃI</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" style="padding-right: 0px!important;">GIỚI THIỆU</a>
+            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+<div class="container">
+    <nav class="nav-top1">
+        <a href="">Trang chủ </a><span> / </span><a href="" style="color: #1FD5BD;"> So Sánh</a>
+    </nav>
+    <p><strong>Apple MacBook Pro (2018) 15" Touch Bar & Touch ID vs Lenovo ThinkPad P53 15.6" UHD vs Microsoft Surface Book 2 15"</strong></p>
+    <div class="row">
+        <div class="col-md-4 p-3">
+            <img src="./image/loptop/1.jpg" alt="" width="100%">
+            <div class="text-center mt-4">
+                <p style="margin-bottom: 0">Apple Macbook Pro (2018) 15"</p>
+                <p style="margin-bottom: 0">Touch Bar & Touch ID</p>
+                <p style="margin-bottom: 15px">Intel Core i9 2.9GHz / 32GB RAM / 4TB SSD</p>
+            </div>
+            <div class="text-center">
+                <p><strong style="color: red">Giá: 120.000.000 VNĐ</strong></p>
+            </div>
+            <div style="border: 1px solid #1FD5BD;border-radius: 5px;padding: 15px;height: 57%">
+                <p style="border-bottom: 1px solid blue;margin-bottom: 10px"><strong>Điểm nổi bật của Apple MacBook Pro (2018) 15"</strong></p>
+                <ul>
+                    <li style="list-style: disc;">Dung lượng RAM lớn</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>32GB</strong> vs 32GB, 16GB</span>
+                    <li style="list-style: disc;">Bộ nhớ trong lớn</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>4000GB</strong> vs 1000GB, 256GB</span>
+                    <li style="list-style: disc;">Siêu mỏng</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>15.5mm</strong> vs 24.5mm, 23mm</span>
+                    <li style="list-style: disc;">Kết nối bluetooth</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>Bluetooth 5.0</strong> vs 5.0, 4.1</span>
+                    <li style="list-style: disc;">Nhiều cổng Microphone</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>3</strong> vs 2.2</span>
+                    <li style="list-style: disc;">Sở hữu màn hình Retina</li>
+                    <li style="list-style: disc;">CPU Turbo</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>4.8GHz</strong> vs 4.8GHz, 4.2GHz</span>
+                    <li style="list-style: disc;">Tốc độ vi xử lý GPU</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>4.8GHz</strong> vs 4.8GHz, 4.2GHz</span>
+                    <li style="list-style: disc;">GPU Turbo</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>1200MHz</strong> vs 1200MHz, 1150MHz</span>
+                
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4 p-3" style="border-left: 1px solid #333;border-right: 1px solid #333">
+            <div style="position: relative;">
+                <strong style="padding: 10px;background-color: #fff;border-radius: 50%;position: absolute;top: 100px;left: -36px;">VS</strong>
+                <strong style="padding: 10px;background-color: #fff;border-radius: 50%;position: absolute;top: 100px;right: -36px;">VS</strong>
+            </div>
+            <img src="./image/loptop/1.jpg" alt="" width="100%">
+            <div class="text-center mt-4">
+                <p style="margin-bottom: 0">Lenovo ThinkPad P53 15.6"</p>
+                <p style="margin-bottom: 0">Intel Core i9-9880H 2.3GHz</p>
+                <p style="margin-bottom: 15px">32GB RAM / 1TB SSD</p>
+            </div>
+            <div class="text-center">
+                <p><strong style="color: red">Giá: 91.600.000 VNĐ</strong></p>
+            </div>
+            <div style="border: 1px solid #1FD5BD;border-radius: 5px;padding: 15px;height: 57%">
+                <p style="border-bottom: 1px solid blue;margin-bottom: 10px"><strong>Điểm nổi bật của Lenovo ThinkPad P53 15.6"</strong></p>
+                <ul>
+                    <li style="list-style: disc;">Độ phân giải màn hình cao</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>2840x2160px</strong> vs 2880x1800px, 3240x2160px</span>
+                    <li style="list-style: disc;">Mật độ điểm ảnh lớn</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>282ppi</strong> vs 220ppi, 260ppi</span>
+                    <li style="list-style: disc;">Tốc độ đọc ghi RAM lớn</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>2666MHz</strong> vs 2400MHz, 2400MHz</span>
+                    <li style="list-style: disc;">Thời lượng pin khủng</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>16.5h</strong> vs 10h, 17h</span>
+                    <li style="list-style: disc;">Màn hình lớn</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>15.6"</strong> vs 15.4", 15"</span>
+                    <li style="list-style: disc;">Tốc độ xử lý của CPU cao</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>8 x 2.3GHz</strong> vs 6 x 2.9GHz, 4 x 1.9GHz</span>
+                    <li style="list-style: disc;">Có cổng USB 3.0</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>5 cổng</strong> vs 0, 3 cổng</span>
+                    <li style="list-style: disc;">Khả năng nâng cấp RAM tuyệt vời</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>128GB</strong> vs 64GB, 32GB</span>
+                    <li style="list-style: disc;">Có đầu ra HDMI</li>
+                    
+                
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 p-3">
+            <img src="./image/loptop/1.jpg" alt="" width="100%">
+            <div class="text-center mt-4">
+                <p style="margin-bottom: 0">Microsoft Surface Book 2 15"</p>
+                <p style="margin-bottom: 0">Intel Core i7-8650U</p>
+                <p style="margin-bottom: 15px">16GB / 256GB</p>
+            </div>
+            <div class="text-center">
+                <p><strong style="color: red">Giá: 70.000.000 VNĐ</strong></p>
+            </div>
+            <div style="border: 1px solid #1FD5BD;border-radius: 5px;padding: 15px;height: 57%">
+                <p style="border-bottom: 1px solid blue;margin-bottom: 10px"><strong>Điểm nổi bật của Microsoft Surface Book 2 15"</strong></p>
+                <ul>
+                    <li style="list-style: disc;">Siêu nhẹ</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>1.53kg</strong> vs 1.83kg, 2.5kg</span>
+                    <li style="list-style: disc;">Thời lượng pin cực khủng</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>17h</strong> vs 10h, 16.5h</span>
+                    <li style="list-style: disc;">Màn hình cảm ứng</li>
+                    
+                    <li style="list-style: disc;">Có bút Surface</li>
+                    
+                    <li style="list-style: disc;">Khả năng trở thành 1 hotspot wifi di động</li>
+                
+            
+                    <li style="list-style: disc;">Tiết kiệm điện năng</li>
+                    <span style="font-size: 80%;margin-bottom: 10px;display: inherit;"><strong>15W</strong> vs 45W, 45W</span>
+    
+                
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container-fluid" style="background-color: #2A343A; height: 60px;margin-top: 4%;">
+        <center style="color: #fff;padding-top: 20px;font-size: 13px;">Mọi thắc mắc xin vui lòng liên hệ tổng đài chăm sóc khách hàng: <i>1900 1508</i> hoặc <i>1900 6677</i></center>
+    </div>
+    <div class="container-fluid" style="background-color: #434E54;padding-bottom: 70px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-4" style="display: flex;align-items: flex-start;padding-left: 0px;">
+                    <div>
+                        <i class="fa fa-shopping-cart" aria-hidden="true" style="color: #fff;padding: 5px;border-radius: 6px;border: #fff solid 1px;margin-top: 100px;"></i><br>
+                        <i class="fab fa-facebook-f "aria-hidden="true" style="color: #fff;padding: 5px 9px 5px 9px;border-radius: 6px;border: #fff solid 1px;margin-top: 10px;"></i><br>
+                        <i class="fab fa-youtube "aria-hidden="true" style="color: #fff;padding: 5px;border-radius: 6px;border: #fff solid 1px;margin-top: 10px;"></i><br>
+                        <i class="fa fa-envelope" aria-hidden="true" style="color: #fff;padding: 5px;border-radius: 6px;border: #fff solid 1px;margin-top: 10px;"></i>
+                    </div>
+                    <div style="margin-top: 70px;margin-left: 30px;display: flex;flex-direction: column;">
+                        <img src="./image/logo-01.png" alt="" width="160px">
+                        <div style="margin-top: 35px;flex-direction: row;display: flex;">
+                            <div style="display: flex; flex-direction: column;">
+                                <i class="fa fa-map-marker-alt" aria-hidden="true" style=""></i>
+                                <i class="fa fa-phone-alt" aria-hidden="true" style="margin-top: 15px;"></i>
+                                <i class="fa fa-envelope" aria-hidden="true" style="margin-top: 15px;"></i>
+                            </div>
+                            <div style="display: flex; flex-direction: column;margin-top: -15px;margin-left: 10px;">
+                                <span style="font-size: 0.72rem;color: #fff;margin-top: 7px;">Số 80 Trúc Khê, Phường Láng Hạ, Quận Đống Đa, Hà Nội</span>
+                                <span style="font-size: 0.7rem;color: #fff;margin-top: 4px;">1900 1508 - 1900 6677</span>
+                                <span style="font-size: 0.7rem;color: #fff;margin-top: 15px;">hotro@mycomputer.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2" style="display:flex;flex-direction: column;">
+                    <h6 style="margin-top: 60px;color: #1FD5BD;font-weight: bold;font-size: 1rem;">#Liên Kết</h6>
+                    <p style="font-size: 0.7rem;margin-top: 20px;color: #fff;">Trang chủ</p>
+                    <p style="font-size: 0.7rem;margin-top: -2px;color: #fff;">Giới thiệu</p>
+                    <p style="font-size: 0.7rem;margin-top: -2px;color: #fff;">Tra cứu bảo hành</p>
+                    <p style="font-size: 0.7rem;margin-top: -2px;color: #fff;">Giỏ hàng</p>
+                    <p style="font-size: 0.7rem;margin-top: -2px;color: #fff;">Tổng đài hỗ trợ</p>
+                    <p style="font-size: 0.7rem;margin-top: -2px;color: #fff;">Hệ thống Showroom</p>
+                </div>
+                <div class="col-3" style="display:flex;flex-direction: column;">
+                    <h6 style="margin-top: 60px;color: #1FD5BD;font-weight: bold;font-size: 1rem;">#Đăng Kí Nhận Thông Tin</h6>
+                    <p style="font-size: 0.7rem;margin-top: 20px;color: #fff;">Vui lòng đăng kí để được nhận những thông tin mới nhất từ MY COMPUTER</p>
+                    <p style="margin-bottom: 0px;"><i class="fa fa-envelope" aria-hidden="true"></i>  <span style="font-size: 0.7rem;color: #fff;margin-left: 10px;">Địa chỉ Email</span></p>
+                    <input type="text" class="form-control" style="    border: transparent !important;
+                    border-bottom: 1px solid #fff !important;
+                    padding-left: 0;
+                    padding-right: 0;
+                    background: transparent !important;
+                    color: rgba(255, 255, 255, 0.9) !important;
+                    font-size: 16px;
+                    border-radius: 0px;
+                    -webkit-box-shadow: none !important;
+                    box-shadow: none !important;">
+                    <button style="background-color: #434E54;
+                    border: #1FD5BD solid 2px;
+                    width: 120px;
+                    height: 40px;
+                    margin-top: 20px;color: #fff;">Đăng Kí</button>
+                </div>
+                <div class="col-3" style="padding-right: 0px;">
+                    <h6 style="margin-top: 60px;color: #1FD5BD;font-weight: bold;font-size: 1rem;">#Khuyến Mãi</h6>
+                    <div style="display: flex;align-items: flex-start;">
+                    <div style="display: flex;flex-direction: column;margin-top: 25px;">
+                        <img src="./image/pc/1.jpg" alt="" width="60px">
+                        <img src="./image/pc/2.jpg" alt="" width="60px" style="margin-top: 45px;">
+                    </div>
+                    <div>
+                        <div style="margin-top: 15px;margin-left: 15px;line-height: initial;">
+                            <b style="font-size: 0.8rem; color: #fff;">Mua laptop Gamming nhận quà 10 triệu</b>
+                            <p style="    font-size: 12px;
+                            color: #fff;">10/10/2019</p>
+                        </div>
+                        <div style="margin-top: 35px;margin-left: 15px;line-height: initial;">
+                                <b style="font-size: 0.8rem; color: #fff;">Sự kiện chào mừng ngày phụ nữ Việt Nam</b>
+                                <p style="    font-size: 12px;
+                                color: #fff;">20/10/2019</p>
+                            </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #2A343A; height: 60px;">
+        <center style="color: #1FD5BD;padding-top: 20px;"><i class="fas fa-copyright"></i> Coppyright 2019 My Computer - All Rights Reserved</center>
+    </div>
+</footer>
+<script src="./js/index.js"></script>
+</body>
+</html>
