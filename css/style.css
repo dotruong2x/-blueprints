@@ -353,3 +353,15 @@ th{
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
 }
+
+.cpu-list li {
+  padding-left: 40px;
+  list-style: none;
+  color: #fff;
+}
+
+.cpu-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
