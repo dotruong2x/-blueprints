@@ -22,8 +22,8 @@ $('#slide-2').owlCarousel({
     margin:0,
     nav:false,
     dots:false,
-    // autoplay:true,
-    // autoplayTimeout:3000,
+    autoplay:true,
+    autoplayTimeout:3000,
     responsive:{
         0:{
             items:6
@@ -117,9 +117,6 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active1";
 }
 $(document).ready(function(){
-    $("#togle-btn").click(function(){
-      $("#dropdown_full").toggle();
-    });
     $(".nav-link").click(function(){
       $("#dropdown_full").hide();
     });

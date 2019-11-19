@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Computer Techstore</title>
+    <title>Mẫu trang con laptop</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -20,7 +20,7 @@
 </head>
 <body style="background-color: #f6f6f6;">
     <header>
-        <div style="background-color: #384248;height: 35px;" class="container-fluid sl1-top1">
+        <div class="container-fluid sl1-top1">
             <div class="container">
                 <div class="row">
                     <div>
@@ -28,7 +28,7 @@
                         <span class="sl1-top1-span sl1-top1-span2">Liên hệ hợp tác</span>
                     </div>
                     <div class=" sl1-top1-div">
-                        <span class="sl1-top1-span"><i class="fa fa-user-circle" aria-hidden="true" style="color: #1FD5BD;"></i> Tài khoản</span>
+                        <span class="sl1-top1-span"><i class="fa fa-user-circle" aria-hidden="true"></i> Tài khoản</span>
                         <span class="sl1-top1-span sl1-top1-span2" data-toggle="modal" data-target="#myModal">Đăng kí</span>
                         <span class="sl1-top1-span sl1-top1-span2" data-toggle="modal" data-target="#myModal">Đăng nhập</span>
                     </div>
@@ -39,7 +39,7 @@
             <div class="container">
                 <div class="row">
                         <img src="./image/logo-01.png" alt="">
-                        <div style="display:flex;justify-content: flex-end;float: right;flex: auto;">
+                        <div class="boxinput" >
                         <input type="text" class="form-control">
                         <i class="fa fa-search" aria-hidden="true"></i>
                         <span class="sl1-top2-span">Giỏ hàng &nbsp;&nbsp; <i class="fas fa-shopping-cart "></i></span>
@@ -52,37 +52,59 @@
             <div class="container">
                 <div class="row">
                     <button id="togle-btn"><span> ☰ </span>SẢN PHẨM</button>
-                    <ul class="navigation1" style="display:flex;justify-content: flex-end;flex: auto;padding-top: 15px;">
+                    <ul class="navigation1">
                         <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">PC <i class="fa fa-angle-down" aria-hidden="true" style="color: #1FD5BD"></i></a>
-                                <div class="dropdown-menu" style="margin-top: 16px!important;">
-                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 10px;" href="#">Máy tính chơi game </a>
-                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Máy chủ, máy trạm </a>
-                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Máy tính văn phòng </a>
-                                    <a class="dropdown-item" id="lk" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Linh kiện PC <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i> </i></a>
-                                    <a class="dropdown-item pk" href="#">Phụ kiện PC <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i></a>
-                                </div>
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">PC <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <div class="dropdown-menu" >
+                                    <a class="dropdown-item" style="padding-bottom: 10px;" href="#">Máy tính chơi game </a>
+                                    <a class="dropdown-item"  href="#">Máy chủ, máy trạm </a>
+                                    <a class="dropdown-item"  href="#">Máy tính văn phòng </a>
+                                    <a class="dropdown-item dropdown-submenu" href="#">Linh kiện PC <i class="fa fa-angle-right" aria-hidden="true" style="float:right;margin-top: 5px;"></i> </i>
+										<ul class="dropdown-menu">
+											<li style="padding-top: 0px;">Màn Hình</li>
+											<li>Gaming Gear</li>
+											<li style="border: none; padding-bottom: 3px;">HT tản Nhiệt</li>
+										</ul></a>
+									<a class="dropdown-item dropdown-submenu" href="#">Phụ kiện PC <i class="fa fa-angle-right" aria-hidden="true" style="float:right;margin-top: 5px;"></i>
+										<ul class="dropdown-menu">
+												<li style="padding-top: 0px;">CPU</li>
+												<li>Mainboarh</li>
+												<li>Card màn hình</li>
+												<li>RAM</li>
+												<li>Ổ cứng</li>
+												<li>Case máy tính</li>
+												<li style="border: none; padding-bottom: 3px;">Nguồn</li>
+										</ul>
+									</a>
+								</div>
                         </li>
                         <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">LAPTOP <i class="fa fa-angle-down" aria-hidden="true" style="color: #1FD5BD"></i></a>
-                                <div class="dropdown-menu" style="margin-top: 16px!important;">
-                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 10px;" href="#">Laptop Gamming </a>
-                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Laptop Workstation </a>
-                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Laptop Doanh nhân </a>
-                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Laptop Văn Phòng </i></a>
-                                        <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Appke Macbook</a>
-                                        <a class="dropdown-item" href="#">Linh- Phụ Kiện <i class="fa fa-angle-right" aria-hidden="true" style="color: #1FD5BD;float:right;margin-top: 5px;"></i></a>
+                                <div class="dropdown-menu" >
+                                        <a class="dropdown-item" style="padding-bottom: 10px;" href="#">Laptop Gamming </a>
+                                        <a class="dropdown-item"  href="#">Laptop Workstation </a>
+                                        <a class="dropdown-item"  href="#">Laptop Doanh nhân </a>
+                                        <a class="dropdown-item"  href="#">Laptop Văn Phòng </i></a>
+                                        <a class="dropdown-item"  href="#">Appke Macbook</a>
+                                        <a class="dropdown-item dropdown-submenu" href="#">Linh- Phụ Kiện <i class="fa fa-angle-right" aria-hidden="true" style="float:right;margin-top: 5px;"></i>
+											<ul class="dropdown-menu">
+												<li style="padding-top: 0px;">RAM</li>
+												<li>Ổ cứng</li>
+												<li>Pin-Sạc Laptop</li>
+												<li style="border: none; padding-bottom: 3px;">Balo-Túi Đựng</li>
+											</ul>
+                                        </a>
                                       </div>
                         </li>
                         <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">LINH KIỆN <i class="fa fa-angle-down" aria-hidden="true" style="color: #1FD5BD"></i></a>
-                                <div class="dropdown-menu" style="margin-top: 16px!important;">
-                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 10px;" href="#">CPU </a>
-                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Mainboarh </a>
-                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Card màn hình </a>
-                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Ram </i></a>
-                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Ổ cứng </i></a>
-                                    <a class="dropdown-item" style="border-bottom: 1px solid rgba(0,0,0,.15);padding-bottom: 12px;" href="#">Case máy tính </i></a>
+                                <div class="dropdown-menu" >
+                                    <a class="dropdown-item" style="padding-bottom: 10px;" href="#">CPU </a>
+                                    <a class="dropdown-item"  href="#">Mainboarh </a>
+                                    <a class="dropdown-item"  href="#">Card màn hình </a>
+                                    <a class="dropdown-item"  href="#">RAM </i></a>
+                                    <a class="dropdown-item"  href="#">Ổ cứng </i></a>
+                                    <a class="dropdown-item"  href="#">Case máy tính </i></a>
                                     <a class="dropdown-item" href="#">Nguồn</a>
                                   </div>
                         </li>
@@ -102,13 +124,12 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid" id="dropdown_full" style="display: none;position: absolute; z-index: 1001;background-color: #fff;">
+        <div class="container-fluid" id="dropdown_full">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-1"></div>
-                    <div class="col-2">
-                        <h4 style="margin-top: 15%; margin-left: 18%;font-weight: 650;font-size: 1.2em;">PC</h4>
-                        <ul class="menu-dropdown" style="margin-top: 10%;">
+                    <div class="col-2" style="margin-left: 3%;">
+                        <h4 >PC</h4>
+                        <ul class="menu-dropdown" >
                             <li>Máy tính chơi game</li>
                             <li>Máy chủ, máy chạm</li>
                             <li>Máy tính văn phòng</li>
@@ -116,8 +137,8 @@
                         </ul>
                     </div>
                     <div class="col-2">
-                        <h4 style="margin-top: 15%; margin-left: 18%;font-weight: 650;font-size: 1.2em;">LINH KIỆN PC</h4>
-                        <ul class="menu-dropdown" style="margin-top: 10%;">
+                        <h4 >LINH KIỆN PC</h4>
+                        <ul class="menu-dropdown" >
                             <li>CPU</li>
                             <li>Mainboarh</li>
                             <li>Card màn hình</li>
@@ -128,8 +149,8 @@
                         </ul>
                     </div>
                     <div class="col-2">
-                        <h4 style="margin-top: 15%; margin-left: 18%;font-weight: 650;font-size: 1.2em;">LAPTOP</h4>
-                        <ul class="menu-dropdown" style="margin-top: 10%;">
+                        <h4 >LAPTOP</h4>
+                        <ul class="menu-dropdown" >
                             <li>Laptop gamming</li>
                             <li>Laptop Workstation</li>
                             <li>Laptop Doanh nhân</li>
@@ -138,18 +159,18 @@
                         </ul>
                     </div>
                     <div class="col-2">
-                        <h4 style="margin-top: 15%; margin-left: 18%;font-weight: 650;font-size: 1.2em;">LINH KIỆN LAPTOP</h4>
-                        <ul class="menu-dropdown" style="margin-top: 10%;">
+                        <h4 >LINH KIỆN LAPTOP</h4>
+                        <ul class="menu-dropdown" >
                             <li>RAM</li>
                             <li>Ổ cứng</li>
                             <li>Pin - Sạc Laptop</li>
                             <li>Ba lô - Túi đựng</li>
                         </ul>
                     </div>
-                    <div class="col-3">
-                        <h4 style="margin-top: 10%; margin-left: 11%;font-weight: 650;font-size: 1.2em;">CHƯƠNG TRÌNH KHUYẾN MÃI</h4>
-                        <img src="./image/2.jpg" alt="" style="width: 85%;margin-left: 10%;margin-top: 5%;">
-                        <img src="./image/1.jpg" alt="" style="width: 85%;margin-left: 10%;margin-top: 2%;">
+                    <div class="col-3 lassafe">
+                        <h4 style="margin-top: 30px;">CHƯƠNG TRÌNH KHUYẾN MÃI</h4>
+                        <img src="./image/2.jpg" alt="" style="margin-top: 5%;">
+                        <img src="./image/1.jpg" alt="" style="margin-top: 2%;">
                     </div>
                 </div>
             </div>
@@ -175,22 +196,32 @@
         </div>
         <div class="container-fluid sl1-top6">
             <div class="container sl1-top6-div">
-                    <img src="./image/1.png" alt="" style="margin-left: -15px;">
-                    <div style="width: 12%;"><h4 style="color: #fff;font-weight: 700;font-size: 0.8rem;">FREE SHIPPING</h4>
-                        <p style="font-size: x-small;color: #fff;">Miến phí vận chuyển với đơn hàng từ 500.000 VND hoặc khách hàng thân thiết</p>
-                    </div>
-                    <img src="./image/2.png">
-                    <div style="width: 11%;"><h4 style="color: #fff;font-weight: 700;font-size: 0.8rem;">CHÍNH HÃNG 100%</h4>
-                        <p style="font-size: x-small;color: #fff;">Miến phí vận chuyển với đơn hàng từ 500.000 VND hoặc khách hàng thân thiết</p>
-                    </div>
-                    <img src="./image/3.png">
-                    <div style="width: 13%;"><h4 style="color: #fff;font-weight: 700;font-size: 0.8rem;">BẢO HÀNH 36 THÁNG</h4>
-                        <p style="font-size: x-small;color: #fff;">Miến phí vận chuyển với đơn hàng từ 500.000 VND hoặc khách hàng thân thiết</p>
-                    </div>
-                    <img src="./image/4.png">
-                    <div style="width: 13%;"><h4 style="color: #fff;font-weight: 700;font-size: 0.8rem;">3 NGÀY ĐỔI TRẢ</h4>
-                        <p style="font-size: x-small;color: #fff;">Miến phí vận chuyển với đơn hàng từ 500.000 VND hoặc khách hàng thân thiết</p>
-                    </div>
+				<div class="row">
+					<div class="col-3">
+							<img src="./image/1.png" alt="" >
+							<div ><h4 style="color: #fff;font-weight: 700;font-size: 0.8rem;">FREE SHIPPING</h4>
+								<p >Miến phí vận chuyển với đơn hàng từ 500.000 VND hoặc khách hàng thân thiết</p>
+							</div>
+					</div>
+					<div class="col-3">
+							<img src="./image/2.png" >
+							<div ><h4 style="color: #fff;font-weight: 700;font-size: 0.8rem;">CHÍNH HÃNG 100%</h4>
+								<p >Miến phí vận chuyển với đơn hàng từ 500.000 VND hoặc khách hàng thân thiết</p>
+							</div>
+					</div>
+					<div class="col-3">
+                    <img src="./image/3.png" >
+                    <div ><h4 style="color: #fff;font-weight: 700;font-size: 0.8rem;">BẢO HÀNH 36 THÁNG</h4>
+                        <p >Miến phí vận chuyển với đơn hàng từ 500.000 VND hoặc khách hàng thân thiết</p>
+					</div>
+				</div>
+					<div class="col-3">
+							<img src="./image/4.png" >
+							<div ><h4 style="color: #fff;font-weight: 700;font-size: 0.8rem;">3 NGÀY ĐỔI TRẢ</h4>
+								<p >Miến phí vận chuyển với đơn hàng từ 500.000 VND hoặc khách hàng thân thiết</p>
+							</div>
+					</div>
+				</div>
             </div>
         </div>
     </header>
@@ -205,46 +236,46 @@
                                 <img src="./image/pc/1.jpg" alt="">
                                 <h5>Asus Rog Huracan</h5>
                                 <span class="cheap" >54.990.000 đ</span>
-                                <span class="car"><img src="./image/sprite-2019-02.png" style="padding: 0px; width: 20px;" alt=""></span>
-                                <p><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 27px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+                                <span class="car"><img src="./image/sprite-2019-02.png" alt=""></span>
+                                <p><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></span></p>
                             </div>
                             <div class="item">
                                 <img src="./image/pc/2.jpg" alt="">
                                 <h5>Acer AS XC-885</h5>
                                 <span class="cheap" >9.890.000 đ</span>
-                                <span class="car" ><img src="./image/sprite-2019-02.png" style="padding: 0px; width: 20px;" alt=""></span>
-                                <p><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 27px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+                                <span class="car" ><img src="./image/sprite-2019-02.png" alt=""></span>
+                                <p><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></span></p>
                             
                             </div>
                             <div class="item">
                                 <img src="./image/pc/4.jpg" alt="">
                                 <h5>Workstation HP Z2 Tower G4</h5>
                                 <span class="cheap" >26.990.000 đ</span>
-                                <span class="car" ><img src="./image/sprite-2019-02.png" style="padding: 0px; width: 20px;" alt=""></span>
-                                <p><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 27px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+                                <span class="car" ><img src="./image/sprite-2019-02.png" alt=""></span>
+                                <p><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></span></p>
                             
                             </div>
                             <div class="item">
                                 <img src="./image/pc/5.jpg" alt="">
                                 <h5>Acer Predator Orion 5000</h5>
                                 <span class="cheap" >31.990.000 đ</span>
-                                <span class="car" ><img src="./image/sprite-2019-02.png" style="padding: 0px; width: 20px;" alt=""></span>
-                                <p><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 27px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+                                <span class="car" ><img src="./image/sprite-2019-02.png" alt=""></span>
+                                <p><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></span></p>
                             
                             </div>
                             <div class="item">
                                 <img src="./image/pc/3.jpg" alt="">
                                 <h5>MSI trident A 9SD-257XVN</h5>
                                 <span class="cheap" >46.590.000 đ</span>
-                                <span class="car" ><img src="./image/sprite-2019-02.png" style="padding: 0px; width: 20px;" alt=""></span>
-                                <p><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 27px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+                                <span class="car" ><img src="./image/sprite-2019-02.png" alt=""></span>
+                                <p><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></span></p>
                             </div>
                             <div class="item">
                                 <img src="./image/pc/6.jpg" alt="">
                                 <h5>DELL Percision 7820 Tower</h5>
                                 <span class="cheap" >124.999.000 đ</span>
-                                <span class="car" ><img src="./image/sprite-2019-02.png" style="padding: 0px; width: 20px;" alt=""></span>
-                                <p><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="margin-left: 27px;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+                                <span class="car" ><img src="./image/sprite-2019-02.png" alt=""></span>
+                                <p><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></span></p>
                             
                             </div>
                         </div>
@@ -255,32 +286,32 @@
                 <h5>LINH - PHỤ KIỆN PC</h5>
                 <div><span>Xem tất cả <i class="fa fa-angle-right" aria-hidden="true"style="color: #1FD5BD;"></i></span></div>
             </div>
-            <div class="row">
+            <div class="row linhkien">
                 <div class="col-9" style="padding: 0px;">
                     <div class="container">
                         <div class="row" style="">
                             <div class="col-6" style="padding: 1px 0 0 0;">
-                                <img src="./image/linkphukien/2.jpg" alt="" style="max-width: 100%;">
+                                <img src="./image/linkphukien/2.jpg" alt="">
                             </div>
                             <div class="col-6" style="padding: 1px;">
-                                <img src="./image/linkphukien/1.jpg" alt="" style="max-width: 100%;">
+                                <img src="./image/linkphukien/1.jpg" alt="">
                             </div>
                         </div>
-                        <div class="row"  style="max-width:103.1%;">
-                            <div style="width: 20%;padding: 1px;">
-                                <img src="./image/linkphukien/cpu.jpg" alt="" style="max-width: 100%;">
+                        <div class="row linhkien1"  style="max-width:103.1%;">
+                            <div>
+                                <img src="./image/linkphukien/cpu.jpg" alt="">
                             </div>
-                            <div style="width: 20%;padding: 1px;">
-                                <img src="./image/linkphukien/mainboard.jpg" alt="" style="max-width: 100%;">
+                            <div>
+                                <img src="./image/linkphukien/mainboard.jpg" alt="">
                             </div>
-                            <div style="width: 20%;padding: 1px;">
-                                <img src="./image/linkphukien/RAM.jpg" alt="" style="max-width: 100%;">
+                            <div>
+                                <img src="./image/linkphukien/RAM.jpg" alt="">
                             </div>
-                            <div style="width: 20%;padding: 1px;">
-                                <img src="./image/linkphukien/VGA.jpg" alt="" style="max-width: 100%;">
+                            <div>
+                                <img src="./image/linkphukien/VGA.jpg" alt="">
                             </div>
-                            <div style="width: 20%;padding: 1px;">
-                                <img src="./image/linkphukien/3.jpg" alt="" style="max-width: 100%;">
+                            <div>
+                                <img src="./image/linkphukien/3.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -306,21 +337,21 @@
                             <h5 style="margin-bottom: 15px;">ACER Aspire 3</h5>
                         <span class="expent" >9.490.000 đ</span>
                             <p class="cheap" >8.990.000 đ</p>
-                            <p style="font-size: 11px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="float: right;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+                            <p style="font-size: 11px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="float: right;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></span></p>
                     </div>
                     <div class="col-4">
                             <img src="./image/loptop/2.jpg" alt="">
                             <h5 style="margin-bottom: 15px;">Acer Nitro 5</h5>
                         <span class="expent">29.990.000 đ</span>
                             <p class="cheap">18.990.000 đ</p>
-                            <p style="font-size: 11px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="float: right;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+                            <p style="font-size: 11px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="float: right;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></span></p>
                     </div>
                     <div class="col-4">
                             <img src="./image/loptop/3.jpg" alt="">
                             <h5>Lenovo Thinkpad T490s</h5>
                         <span class="expent">29.990.000 đ</span>
                             <p class="cheap" >28.990.000 đ</p>
-                            <p style="font-size: 11px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="float: right;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+                            <p style="font-size: 11px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="float: right;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></span></p>
                     </div>
                 </div>
                 <div class="row">
@@ -328,20 +359,20 @@
                                 <img src="./image/loptop/4.jpg" alt="">
                                 <h5>Macbook Pro 2017 13.3"</h5>
                                 <p class="cheap" style="margin-top: 39px;">8.990.000 đ</p>
-                                <p style="font-size: 11px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="float: right;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+                                <p style="font-size: 11px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="float: right;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></span></p>
                         </div>
                         <div class="col-4">
                                 <img src="./image/loptop/5.jpg" alt="">
                                 <h5>Lenovo Legion Y740</h5>
                                 <p class="cheap" style="margin-top: 39px;">49.000.000 đ</p>
-                                <p style="font-size: 11px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="float: right;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+                                <p style="font-size: 11px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="float: right;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></span></p>
                         </div>
                         <div class="col-4">
                                 <img src="./image/loptop/6.jpg" alt="">
                                 <h5>ASUS ROG Zephyrus S</h5>
                             <span class="expent" style="">61.990.000 đ</span>
                                 <p class="cheap" style="">61.590.000 đ</p>
-                                <p style="font-size: 11px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="float: right;"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></span></span></p>
+                                <p style="font-size: 11px;"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng <span style="float: right;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></span></p>
                         </div>
                     </div>
             </div>
@@ -368,37 +399,37 @@
                                 <img src="./image/sp/1.jpg" alt="">
                                 <h5>Bộ Mở Rộng Sóng ASUS</h5>
                                 <span class="cheap">54.990.000 đ</span>
-                                <p style="font-size: 11px; margin-left: 10px;margin-top: 15px;"><span><i class="fa fa-check" aria-hidden="true"></i> Còn Hàng</span><span style="margin-left: 3%;"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng </span></p>
+                                <p><span><i class="fa fa-check" aria-hidden="true"></i> Còn Hàng</span><span style="margin-left: 3%;"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng </span></p>
                             </div>
                             <div class="item">
                                 <img src="./image/sp/2.jpg" alt="">
                                 <h5>Lenovo IdeaPad 130</h5>
                                 <span class="cheap">5.990.000 đ</span>
-                                <p style="font-size: 11px; margin-left: 10px;margin-top: 15px;"><span><i class="fa fa-check" aria-hidden="true"></i> Còn Hàng</span><span style="margin-left: 3%;"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng </span></p>
+                                <p><span><i class="fa fa-check" aria-hidden="true"></i> Còn Hàng</span><span style="margin-left: 3%;"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng </span></p>
                             </div>
                             <div class="item">
                                 <img src="./image/sp/3.jpg" alt="">
                                 <h5>Monitor SamSung 31,5" 4K</h5>
                                 <span class="cheap">7.069.000 đ</span>
-                                <p style="font-size: 11px; margin-left: 10px;margin-top: 15px;"><span><i class="fa fa-check" aria-hidden="true"></i> Còn Hàng</span><span style="margin-left: 3%;"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng </span></p>
+                                <p><span><i class="fa fa-check" aria-hidden="true"></i> Còn Hàng</span><span style="margin-left: 3%;"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng </span></p>
                             </div>
                             <div class="item">
                                 <img src="./image/sp/4.jpg" alt="">
                                 <h5>MSI GeForce RTX 2060</h5>
                                 <span class="cheap">10.950.000 đ</span>
-                                <p style="font-size: 11px; margin-left: 10px;margin-top: 15px;"><span><i class="fa fa-check" aria-hidden="true"></i> Còn Hàng</span><span style="margin-left: 3%;"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng </span></p>
+                                <p><span><i class="fa fa-check" aria-hidden="true"></i> Còn Hàng</span><span style="margin-left: 3%;"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng </span></p>
                             </div>
                             <div class="item">
                                 <img src="./image/sp/5.jpg" alt="">
                                 <h5>G.SKILL Trident Z (2X8GB)</h5>
                                 <span class="cheap">2.190.000 đ</span>
-                                <p style="font-size: 11px; margin-left: 10px;margin-top: 15px;"><span><i class="fa fa-check" aria-hidden="true"></i> Còn Hàng</span><span style="margin-left: 3%;"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng </span></p>
+                                <p><span><i class="fa fa-check" aria-hidden="true"></i> Còn Hàng</span><span style="margin-left: 3%;"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng </span></p>
                             </div>
-                            <div class="item" style="border: #f6f6f6 solid 1px;">
+                            <div class="item">
                                 <img src="./image/sp/6.jpg" alt="">
                                 <h5>Màn hình cong Acer 31,5"</h5>
                                 <span class="cheap">5.586.000 đ</span>
-                                <p style="font-size: 11px; margin-left: 10px;margin-top: 15px;"><span><i class="fa fa-check" aria-hidden="true"></i> Còn Hàng</span><span style="margin-left: 3%;"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng </span></p>
+                                <p><span><i class="fa fa-check" aria-hidden="true"></i> Còn Hàng</span><span style="margin-left: 3%;"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm vào giỏ hàng </span></p>
                             </div>
                         </div>
             </div>
@@ -423,125 +454,119 @@
                     </div>
                 </div>
             </div>
-                     
-<footer>
-            <div class="container-fluid" style="background-color: #2A343A; height: 60px;margin-top: 4%;">
-                <center style="color: #fff;padding-top: 20px;font-size: 13px;">Mọi thắc mắc xin vui lòng liên hệ tổng đài chăm sóc khách hàng: <i>1900 1508</i> hoặc <i>1900 6677</i></center>
-            </div>
-            <div class="container-fluid" style="background-color: #434E54;padding-bottom: 70px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4" style="display: flex;align-items: flex-start;padding-left: 0px;">
-                            <div>
-                                <i class="fa fa-shopping-cart" aria-hidden="true" style="color: #fff;padding: 5px;border-radius: 6px;border: #fff solid 1px;margin-top: 100px;"></i><br>
-                                <i class="fab fa-facebook-f "aria-hidden="true" style="color: #fff;padding: 5px 9px 5px 9px;border-radius: 6px;border: #fff solid 1px;margin-top: 10px;"></i><br>
-                                <i class="fab fa-youtube "aria-hidden="true" style="color: #fff;padding: 5px;border-radius: 6px;border: #fff solid 1px;margin-top: 10px;"></i><br>
-                                <i class="fa fa-envelope" aria-hidden="true" style="color: #fff;padding:5px 6px;border-radius: 6px;border: #fff solid 1px;margin-top: 10px;"></i>
-                            </div>
-                            <div style="margin-top: 60px;margin-left: 30px;display: flex;flex-direction: column;">
-                                <img src="./image/logo-01.png" alt="" width="200px">
-                                <div style="margin-top: 35px;flex-direction: row;display: flex;">
-                                    <div style="display: flex; flex-direction: column;">
-                                        <i class="fa fa-map-marker-alt" aria-hidden="true" style=""></i>
-                                        <i class="fa fa-phone-alt" aria-hidden="true" style="margin-top: 15px;"></i>
-                                        <i class="fa fa-envelope" aria-hidden="true" style="margin-top: 15px;"></i>
+                    
+            <footer>
+                    <div class="container-fluid footer-top1" >
+                        <center >Mọi thắc mắc xin vui lòng liên hệ tổng đài chăm sóc khách hàng: <i>1900 1508</i> hoặc <i>1900 6677</i></center>
+                    </div>
+                    <div class="container-fluid" style="background-color: #434E54;padding-bottom: 70px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4" style="display: flex;align-items: flex-start;padding-left: 0px;">
+                                    <div class="searchicon">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true" style="padding: 5px;margin-top: 100px;"></i><br>
+                                        <i class="fab fa-facebook-f "aria-hidden="true" style=" padding: 5px 9px 5px 9px;"></i><br>
+                                        <i class="fab fa-youtube "aria-hidden="true" style=" padding: 5px;"></i><br>
+                                        <i class="fa fa-envelope" aria-hidden="true" style=" padding:5px 6px;"></i>
                                     </div>
-                                    <div style="display: flex; flex-direction: column;margin-top: -15px;margin-left: 10px;">
-                                        <span style="font-size: 13px;color: #fff;margin-top: 12px;">Số 80 Trúc Khê, Phường Láng Hạ, Quận Đống Đa, Hà Nội</span>
-                                        <span style="font-size: 13px;color: #fff;margin-top: 11px;">1900 1508 - 1900 6677</span>
-                                        <span style="font-size: 13px;color: #fff;margin-top: 14px;">hotro@mycomputer.com</span>
+                                    <div class="address" >
+                                        <img src="./image/logo-01.png" alt="" width="200px">
+                                        <div style="margin-top: 35px;flex-direction: row;display: flex;">
+                                            <div>
+                                                <i class="fa fa-map-marker-alt" aria-hidden="true" ></i>
+                                                <i class="fa fa-phone-alt" aria-hidden="true" style="margin-top: 15px;"></i>
+                                                <i class="fa fa-envelope" aria-hidden="true" style="margin-top: 15px;"></i>
+                                            </div>
+                                            <div style="margin-top: -15px;margin-left: 10px;">
+                                                <span style="margin-top: 12px;">Số 80 Trúc Khê, Phường Láng Hạ, Quận Đống Đa, Hà Nội</span>
+                                                <span style="margin-top: 11px;">1900 1508 - 1900 6677</span>
+                                                <span style="margin-top: 14px;">hotro@mycomputer.com</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-2" style="display:flex;flex-direction: column;">
-                            <h6 style="margin-top: 60px;color: #1FD5BD;font-weight: bold;font-size: 18px;">#Liên Kết</h6>
-                            <p style="font-size: 13px;margin-top: 20px;color: #fff;">Trang chủ</p>
-                            <p style="font-size: 13px;margin-top: -2px;color: #fff;">Giới thiệu</p>
-                            <p style="font-size: 13px;margin-top: -2px;color: #fff;">Tra cứu bảo hành</p>
-                            <p style="font-size: 13px;margin-top: -2px;color: #fff;">Giỏ hàng</p>
-                            <p style="font-size: 13px;margin-top: -2px;color: #fff;">Tổng đài hỗ trợ</p>
-                            <p style="font-size: 13px;margin-top: -2px;color: #fff;">Hệ thống Showroom</p>
-                        </div>
-                        <div class="col-3" style="display:flex;flex-direction: column;">
-                            <h6 style="margin-top: 60px;color: #1FD5BD;font-weight: bold;font-size: 18px;">#Đăng Kí Nhận Thông Tin</h6>
-                            <p style="font-size: 13px;margin-top: 20px;color: #fff;">Vui lòng đăng kí để được nhận những thông tin mới nhất từ MY COMPUTER</p>
-                            <p style="margin-bottom: 0px;"><i class="fa fa-envelope" aria-hidden="true"></i>  <span style="font-size: 13px;color: #fff;margin-left: 10px;">Địa chỉ Email</span></p>
-                            <input type="text" class="form-control" style="    border: transparent !important;
-                            border-bottom: 1px solid #fff !important;
-                            padding-left: 0;
-                            padding-right: 0;
-                            background: transparent !important;
-                            color: rgba(255, 255, 255, 0.9) !important;
-                            font-size: 16px;
-                            border-radius: 0px;
-                            -webkit-box-shadow: none !important;
-                            box-shadow: none !important;">
-                            <button style="background-color: #434E54;
-                            border: #1FD5BD solid 2px;
-                            width: 120px;
-                            height: 40px;
-                            margin-top: 20px;color: #fff;">Đăng Kí</button>
-                        </div>
-                        <div class="col-3" style="padding-right: 0px;">
-                            <h6 style="margin-top: 60px;color: #1FD5BD;font-weight: bold;font-size: 18px;">#Khuyến Mãi</h6>
-                            <div style="display: flex;align-items: flex-start;">
-                            <div style="display: flex;flex-direction: column;margin-top: 25px;">
-                                <img src="./image/pc/1.jpg" alt="" width="60px">
-                                <img src="./image/pc/2.jpg" alt="" width="60px" style="margin-top: 45px;">
-                            </div>
-                            <div>
-                                <div style="margin-top: 20px;margin-left: 15px;line-height: initial;">
-                                    <b style="font-size: 16px; color: #fff;">Mua laptop Gamming nhận quà 10 triệu</b>
-                                    <p style="    font-size: 14px;
-                                    color: #fff;">10/10/2019</p>
+                                <div class="col-2 foot-col2" style="display:flex;flex-direction: column;">
+                                    <h6>#Liên Kết</h6>
+                                    <p style="font-size: 13px;margin-top: 20px;color: #fff;">Trang chủ</p>
+                                    <p>Giới thiệu</p>
+                                    <p>Tra cứu bảo hành</p>
+                                    <p>Giỏ hàng</p>
+                                    <p>Tổng đài hỗ trợ</p>
+                                    <p>Hệ thống Showroom</p>
                                 </div>
-                                <div style="margin-top: 40px;margin-left: 15px;line-height: initial;">
-                                        <b style="font-size: 16px; color: #fff;">Sự kiện chào mừng ngày phụ nữ Việt Nam</b>
-                                        <p style="    font-size: 14px;
-                                        color: #fff;">20/10/2019</p>
+                                <div class="col-3 foot-col3">
+                                    <h6>#Đăng Kí Nhận Thông Tin</h6>
+                                    <p style="font-size: 13px;margin-top: 20px;color: #fff;">Vui lòng đăng kí để được nhận những thông tin mới nhất từ MY COMPUTER</p>
+                                    <p style="margin-bottom: 0px;"><i class="fa fa-envelope" aria-hidden="true"></i>  <span style="font-size: 13px;color: #fff;margin-left: 10px;">Địa chỉ Email</span></p>
+                                    <input type="text" class="form-control">
+                                    <button>Đăng Kí</button>
+                                </div>
+                                <div class="col-3 foot-col4" style="padding-right: 0px;">
+                                    <h6>#Khuyến Mãi</h6>
+                                    <div>
+                                    <div style="display: flex;flex-direction: column;margin-top: 25px;">
+                                        <img src="./image/pc/1.jpg" alt="" width="60px">
+                                        <img src="./image/pc/2.jpg" alt="" width="60px" style="margin-top: 45px;">
                                     </div>
+                                    <div>
+                                        <div style="margin-top: 20px;margin-left: 15px;line-height: initial;">
+                                            <b style="font-size: 16px; color: #fff;">Mua laptop Gamming nhận quà 10 triệu</b>
+                                            <p style="    font-size: 14px;
+                                            color: #fff;">10/10/2019</p>
+                                        </div>
+                                        <div style="margin-top: 40px;margin-left: 15px;line-height: initial;">
+                                                <b style="font-size: 16px; color: #fff;">Sự kiện chào mừng ngày phụ nữ Việt Nam</b>
+                                                <p style="    font-size: 14px;
+                                                color: #fff;">20/10/2019</p>
+                                            </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                        </div>
                         </div>
                     </div>
+                    <div class="container-fluid" style="background-color: #2A343A; height: 60px;">
+                        <center style="color: #1FD5BD;padding-top: 20px;"><i class="fas fa-copyright"></i> Coppyright 2019 My Computer - All Rights Reserved</center>
+                    </div>
+        </footer>
+        <!-- modal -->
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <center style="background-color: #fff;width: 100%;height: 700px;">
+                        <img src="./image/logo-01.jpg" alt="" width="300px">
+                        <div style="display: flex; justify-content: space-around;margin-top: 50px;">
+                            <a class="tablinks" onclick="openCity(event, 'dangky')" style="font-size: 2rem;font-weight:750;">Đăng kí</a>
+                            <a class="tablinks active1" onclick="openCity(event, 'dangnhap')" style="font-size: 2rem;font-weight:750;">Đăng nhập</a>
+                        </div>
+                          <div id="dangky" class="tabcontent">
+                            <input type="email" class="form-control" name="" id="" placeholder="Địa chỉ email, sđt, tên đăng nhập">
+                            <input type="password" class="form-control" name="" id="" placeholder="Mật khẩu" style="margin-top: 30px;">
+                            <button style="margin-top: 50px;background-color: #384248;color: #1FD5BD;font-weight: 700;font-size: 26px;" class="form-control">Đăng Kí</button>
+                          </div>
+                          
+                          <div id="dangnhap" class="tabcontent" style="display: block;">
+                            <input type="email" class="form-control" name="" id="" placeholder="Địa chỉ email, sđt, tên đăng nhập">
+                            <input type="password" class="form-control" name="" id="" placeholder="Mật khẩu" style="margin-top: 30px;">
+                            <button style="margin-top: 50px;background-color: #384248;color: #1FD5BD;font-weight: 700;font-size: 26px;" class="form-control">Đăng Nhập</button>
+                            <i style="    margin-left: -65%;font-size: 14px;">Quên mật khẩu</i>
+                            <a href=""><p style="margin-top: 10%;font-size: 24px;font-weight: 700;">Đăng nhập bằng</p></a>
+                          </div>
+                    </center>
                 </div>
+                
+              </div>
             </div>
-            <div class="container-fluid" style="background-color: #2A343A; height: 60px;">
-                <center style="color: #1FD5BD;padding-top: 20px;"><i class="fas fa-copyright"></i> Coppyright 2019 My Computer - All Rights Reserved</center>
-            </div>
-</footer>
-<!-- modal -->
-<div class="modal" id="myModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <!-- Modal body -->
-        <div class="modal-body">
-            <center style="background-color: #fff;width: 100%;height: 700px;">
-                <img src="./image/logo-01.jpg" alt="" width="300px">
-                <div style="display: flex; justify-content: space-around;margin-top: 50px;">
-                    <a class="tablinks" onclick="openCity(event, 'dangky')" style="font-size: 2rem;font-weight:750;">Đăng kí</a>
-                    <a class="tablinks active1" onclick="openCity(event, 'dangnhap')" style="font-size: 2rem;font-weight:750;">Đăng nhập</a>
-                </div>
-                  <div id="dangky" class="tabcontent">
-                    <input type="email" class="form-control" name="" id="" placeholder="Địa chỉ email, sđt, tên đăng nhập">
-                    <input type="password" class="form-control" name="" id="" placeholder="Mật khẩu" style="margin-top: 30px;">
-                    <button style="margin-top: 50px;background-color: #384248;color: #1FD5BD;font-weight: 700;font-size: 26px;" class="form-control">Đăng Kí</button>
-                  </div>
-                  
-                  <div id="dangnhap" class="tabcontent" style="display: block;">
-                    <input type="email" class="form-control" name="" id="" placeholder="Địa chỉ email, sđt, tên đăng nhập">
-                    <input type="password" class="form-control" name="" id="" placeholder="Mật khẩu" style="margin-top: 30px;">
-                    <button style="margin-top: 50px;background-color: #384248;color: #1FD5BD;font-weight: 700;font-size: 26px;" class="form-control">Đăng Nhập</button>
-                    <i style="    margin-left: -65%;font-size: 14px;">Quên mật khẩu</i>
-                    <a href=""><p style="margin-top: 10%;font-size: 24px;font-weight: 700;">Đăng nhập bằng</p></a>
-                  </div>
-            </center>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-    <script src="./js/index.js"></script>
-</body>
-</html>
+          </div>
+          <script>
+              $(document).ready(function(){
+                $("#togle-btn").click(function(){
+                   $("#dropdown_full").toggle();
+                });
+              });
+          </script>
+            <script src="./js/index.js"></script>
+        </body>
+        </html>
