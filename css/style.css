@@ -365,3 +365,66 @@ th{
   align-items: center;
   margin-bottom: 0;
 }
+
+.cart-step {
+  position: relative;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #f2f2f2;
+    border-top: none;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.cart-step:before {
+  content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: -1px;
+    left: -1px;
+    z-index: 3;
+    height: 2px;
+    background: #18a0c6;
+}
+
+.cart-remove {
+      display: block;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    color: #fff;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+
+.cart-remove:before {
+  content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid #18a0c6;
+    border-bottom: 20px solid #18a0c6;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.btn-submitcoupon {
+  width: 105px;
+    font-size: 0.8125rem;
+    padding: 8px 15px;
+    color: #fff;
+    background: #18a0c6;
+    border-radius: 50px;
+    -webkit-transition: all, 0.5s;
+    -khtml-transition: all, 0.5s;
+    -moz-transition: all, 0.5s;
+    -ms-transition: all, 0.5s;
+    -o-transition: all, 0.5s;
+    transition: all, 0.5s;
+    margin-left: 5px;
+}
