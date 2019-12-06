@@ -505,3 +505,42 @@ th{
   margin-bottom: 0;
 }
 
+.buipc>div{
+    display: flex; justify-content: space-between;margin-top: 2px;padding: 10px 15px;border-bottom: dashed #f6f6f6 2px;
+}
+.buipc button{
+    border: #1FD5BD solid 1px;border-radius: 15px;background-color: #fff;
+}
+.cauhinh{
+    display: flex; justify-content:space-between;margin-top: 2px;padding: 10px 15px;
+}
+.cauhinh button{
+    border: none; border-radius: 15px; background: #384248; color: #fff;font-weight: bold;font-size: 14px;margin-right: 10px;padding: 7px;
+}
+.ctsp_name{
+    margin-top: 15px;margin-bottom: 5px;font-size: 12px;
+}
+.dathang{
+    border-top: #f6f6f6 dotted 4px;padding-top: 5px;margin-top: 5px;
+}
+.dathang button{
+    border: none;padding: 10px;border-radius: 5px;background-color: #384248;color: #fff;    font-size: 11px;
+}
+.ctspsale{
+    max-width:33%;padding-left: 10px;border: #f6f6f6 solid 1px;
+}
+.ctspsale>span{
+    font-size: 10px; margin-left: 27px;
+}
+.ctspsale li{
+    font-size: 10px;list-style-type: disc; margin-left: 3px;
+}
+.ctspsale h6{
+    margin-top: 15px;font-size: 13px; font-weight: 700
+}
+.ctspsale ul{
+    padding-left: 10px;margin-bottom: 0px;
+}
+.freeship{
+    color: #fff;font-weight: 700;font-size: 18px;
+}
