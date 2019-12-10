@@ -217,7 +217,7 @@ content: none;
     max-width: 100%;
 }
 .linhkien1 div{
-    width: 20%;padding: 1px;
+    width: 20%;padding: 1px;position: relative;
 }
 .sl1-top6-div>div{
     float: left;
@@ -706,4 +706,13 @@ th{
     }
     .ssspdiv strong{
         padding: 10px;background-color: #fff;border-radius: 50%;position: absolute;top: 100px;
+    }
+    .text_banner{
+        position: absolute;
+        color: #1FD5BD;
+        z-index: 1;
+        top: 84%;
+        left: 35%;
+        font-weight: 700;
+        font-size: 14px;
     }
